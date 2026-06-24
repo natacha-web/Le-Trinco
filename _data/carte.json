@@ -1,0 +1,88 @@
+{
+  "planches": [
+    {
+      "nom": "La Petite Cochonne",
+      "description": "Notre plateau de charcuterie maison — jambon, coppa, saucisson de caractère, cornichons et pain grillé",
+      "prix": "18"
+    },
+    {
+      "nom": "L'Affinée",
+      "description": "Sélection de fromages affinés, crudités croquantes, condiments et pain de campagne",
+      "prix": "17"
+    },
+    {
+      "nom": "La Bête",
+      "description": "Le grand plateau du Trinco — charcuterie, fromages, rillettes, légumes marinés, pain maison. Pour les vraiment courageux",
+      "prix": "28"
+    },
+    {
+      "nom": "Le Double Jeu",
+      "description": "Mi-cochonne, mi-affinée — quand on ne choisit pas, on prend les deux",
+      "prix": "24"
+    }
+  ],
+  "assiettes": [
+    {
+      "nom": "Le Dernier Coup de Cuillère",
+      "description": "Velouté du moment, croutons maison, huile parfumée — la douceur qui finit tout",
+      "prix": "9"
+    },
+    {
+      "nom": "La Mauvaise Influence",
+      "description": "Tartines grillées, tapenade, anchoïade, légumes confits — l'apéro qui s'étire",
+      "prix": "12"
+    },
+    {
+      "nom": "L'Innocente",
+      "description": "Salade de saison, herbes fraîches, vinaigrette au miel et noix — la seule sage de la carte",
+      "prix": "11"
+    },
+    {
+      "nom": "Le Trouble-Fête",
+      "description": "Burrata crémeuse, tomates du marché, basilic, fleur de sel et un filet d'huile qui change tout",
+      "prix": "14"
+    }
+  ],
+  "sucre": [
+    {
+      "nom": "La Chute Libre",
+      "description": "Fondant au chocolat coulant, fleur de sel, crème froide — on ne résiste pas",
+      "prix": "8"
+    },
+    {
+      "nom": "Le Petit Coup de Grâce",
+      "description": "Crème brûlée du jour, selon l'humeur de Jean-Mi",
+      "prix": "7"
+    }
+  ],
+  "vins": [
+    {
+      "categorie": "Blancs",
+      "items": [
+        { "nom": "Saint-Romain — Domaine Germain", "region": "Bourgogne", "prix_verre": "9", "prix_bouteille": "38" },
+        { "nom": "Savennières La Saponaire — Ogereau", "region": "Loire", "prix_verre": "8", "prix_bouteille": "34" },
+        { "nom": "Picpoul de Pinet — Domaine Félines Jourdan", "region": "Languedoc", "prix_verre": "7", "prix_bouteille": "28" }
+      ]
+    },
+    {
+      "categorie": "Rouges",
+      "items": [
+        { "nom": "Côtes du Rhône — Château Mourgues du Grès", "region": "Rhône", "prix_verre": "7", "prix_bouteille": "29" },
+        { "nom": "Saumur-Champigny — Domaine Filliatreau", "region": "Loire", "prix_verre": "8", "prix_bouteille": "33" },
+        { "nom": "Bandol rouge — Domaine Tempier", "region": "Provence", "prix_verre": "10", "prix_bouteille": "42" }
+      ]
+    },
+    {
+      "categorie": "Bulles & Rosés",
+      "items": [
+        { "nom": "Crémant de Loire brut — Langlois-Chateau", "region": "Loire", "prix_verre": "8", "prix_bouteille": "32" },
+        { "nom": "Tavel rosé — Domaine de la Mordorée", "region": "Rhône", "prix_verre": "8", "prix_bouteille": "33" }
+      ]
+    }
+  ],
+  "horaires": {
+    "mardi_samedi": "12h00 – 23h00",
+    "dimanche_lundi": "Ouvert sur privatisation",
+    "note": "Service continu — venez quand vous voulez"
+  }
+}

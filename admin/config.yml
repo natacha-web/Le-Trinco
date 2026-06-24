@@ -1,0 +1,76 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "carte"
+    label: "La Carte"
+    files:
+      - label: "Carte complète"
+        name: "carte"
+        file: "_data/carte.json"
+        fields:
+          - label: "Planches à partager"
+            name: "planches"
+            widget: "list"
+            fields:
+              - { label: "Nom", name: "nom", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Prix (€)", name: "prix", widget: "string" }
+
+          - label: "Assiettes"
+            name: "assiettes"
+            widget: "list"
+            fields:
+              - { label: "Nom", name: "nom", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Prix (€)", name: "prix", widget: "string" }
+
+          - label: "Sucré"
+            name: "sucre"
+            widget: "list"
+            fields:
+              - { label: "Nom", name: "nom", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Prix (€)", name: "prix", widget: "string" }
+
+          - label: "Vins"
+            name: "vins"
+            widget: "list"
+            fields:
+              - { label: "Catégorie", name: "categorie", widget: "string" }
+              - label: "Bouteilles"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Nom du vin", name: "nom", widget: "string" }
+                  - { label: "Région", name: "region", widget: "string" }
+                  - { label: "Prix au verre (€)", name: "prix_verre", widget: "string" }
+                  - { label: "Prix bouteille (€)", name: "prix_bouteille", widget: "string" }
+
+          - label: "Horaires"
+            name: "horaires"
+            widget: "object"
+            fields:
+              - { label: "Mardi – Samedi", name: "mardi_samedi", widget: "string" }
+              - { label: "Dimanche & Lundi", name: "dimanche_lundi", widget: "string" }
+              - { label: "Note d'accueil", name: "note", widget: "string" }
+
+  - name: "avis"
+    label: "Avis clients"
+    files:
+      - label: "Avis affichés"
+        name: "avis"
+        file: "_data/avis.json"
+        fields:
+          - label: "Avis"
+            name: "avis"
+            widget: "list"
+            fields:
+              - { label: "Prénom", name: "prenom", widget: "string" }
+              - { label: "Note (/5)", name: "note", widget: "string" }
+              - { label: "Texte", name: "texte", widget: "text" }
+              - { label: "Date", name: "date", widget: "string" }

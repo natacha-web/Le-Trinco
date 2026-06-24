@@ -1,0 +1,22 @@
+{
+  "avis": [
+    {
+      "prenom": "Marion L.",
+      "note": "5",
+      "texte": "Une excellente adresse qui mérite d'être connue ! Les produits sont frais, les planches sont délicieuses et le service est irréprochable. N'hésitez pas à y aller les yeux fermés.",
+      "date": "Juin 2025"
+    },
+    {
+      "prenom": "Nzooo",
+      "note": "5",
+      "texte": "Merci à Jean-Mi & Charlotte pour leur accueil, leur énergie et leur cuisine. Une très belle adresse, authentique et chaleureuse !",
+      "date": "Juin 2025"
+    },
+    {
+      "prenom": "Michael D.",
+      "note": "5",
+      "texte": "Repas excellent, très bon service et personnel agréable. Venez sans hésiter — on y retourne dès que possible.",
+      "date": "Juin 2025"
+    }
+  ]
+}

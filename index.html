@@ -4,8 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Trinco — Cave à Manger · Cagnes-sur-Mer</title>
-  <meta name="description" content="Trinco, cave à manger à Cagnes-sur-Mer. Planches généreuses, vins de caractère, produits locaux. Histoire de famille, adresse de cœur." />
-  <meta name="keywords" content="restaurant Cagnes-sur-Mer, cave à vin, planches à partager, vins naturels, Côte d'Azur, Nice, Antibes" />
+  <meta name="description" content="Trinco, cave à manger à Cagnes-sur-Mer. Planches généreuses, vins de caractère, produits locaux. Une histoire de famille entre Charlotte et Jean-Mi." />
+  <meta name="keywords" content="restaurant Cagnes-sur-Mer, cave à vin, planches à partager, vins naturels, Côte d'Azur, Nice, Antibes, bar à vin" />
   <meta property="og:title" content="Trinco — Cave à Manger · Cagnes-sur-Mer" />
   <meta property="og:description" content="Planches généreuses, vins de caractère, produits locaux. Une histoire de famille à Cagnes-sur-Mer." />
   <meta property="og:image" content="images/hero_duo_logo.webp" />
@@ -17,10 +17,7 @@
 
 <!-- NAV -->
 <nav>
-  <a href="#hero" class="nav-logo">
-    TRINCO
-    <span>Cave à Manger</span>
-  </a>
+  <a href="#hero" class="nav-logo">TRINCO<span>Cave à Manger</span></a>
   <ul class="nav-links">
     <li><a href="#histoire">Notre histoire</a></li>
     <li><a href="#carte">La carte</a></li>
@@ -28,9 +25,7 @@
     <li><a href="#avis">Avis</a></li>
     <li><a href="#contact" class="nav-cta">Réserver</a></li>
   </ul>
-  <button class="burger" aria-label="Menu">
-    <span></span><span></span><span></span>
-  </button>
+  <button class="burger" aria-label="Menu"><span></span><span></span><span></span></button>
 </nav>
 
 <!-- HERO -->
@@ -52,24 +47,40 @@
 <section id="histoire">
   <div class="container">
     <div class="histoire-grid">
-      <div class="histoire-imgs">
+
+      <div class="histoire-imgs fade-up">
         <img src="images/hero_duo_logo.webp" alt="Jean-Mi et Charlotte, fondateurs du Trinco" loading="lazy" />
-        <img src="images/chantier_sepia.webp" alt="La construction du Trinco" loading="lazy" />
-        <img src="images/jean_mi_charlotte.webp" alt="Jean-Mi et Charlotte au Trinco" loading="lazy" />
+        <img src="images/chantier_sepia.webp" alt="La construction du Trinco de leurs mains" loading="lazy" />
+        <img src="images/jean_mi_charlotte.webp" alt="Jean-Mi et Charlotte au soir de l'ouverture" loading="lazy" />
       </div>
-      <div class="histoire-text">
+
+      <div class="histoire-text fade-up">
         <span class="histoire-tag">Histoire de famille</span>
         <p class="section-label">Qui sommes-nous</p>
-        <h2 class="section-title" style="color: var(--or);">Jean-Mi<br>&amp; Charlotte</h2>
-        <p class="section-intro">
-          Tout a commencé avec une cave voûtée en pierre, deux paires de mains, et une idée simple : un endroit où l'on mange bien, où l'on boit mieux, et où l'on revient.
-        </p>
-        <br>
-        <p class="section-intro">
-          Au Trinco, la carte n'est pas un menu — c'est une humeur. Les planches changent à l'arrivage, les vins sont choisis avec soin chez de petits vignerons, et le service, c'est nous.
-        </p>
-        <br>
-        <p style="font-size:0.85rem; color: var(--or); letter-spacing:0.05em; font-style:italic;">
+        <h2 class="section-title" style="color: var(--or);">Charlotte<br>&amp; Jean-Mi</h2>
+
+        <div class="histoire-perso">
+          <div class="perso-bloc">
+            <div class="perso-nom">Charlotte — la cave</div>
+            <p class="perso-texte">
+              Elle commence en salle à 17 ans. Un client lui demande la différence entre chardonnay et sauvignon blanc. Elle ne sait pas répondre. Ce soir-là, elle décide que ça ne se reproduira plus. Formation d'œnologie, Monaco, Australie, Maurice — Charlotte revient avec une cave entière dans la tête et l'envie de la partager.
+            </p>
+          </div>
+          <div class="perso-bloc">
+            <div class="perso-nom">Jean-Mi — la cuisine</div>
+            <p class="perso-texte">
+              Ancien logisticien chez Sisco, son rêve : un foodtruck avec de l'effiloché d'agneau. Le genre de rêve qu'on n'abandonne pas. Quand sa fille lui parle de la voûte en pierre de la rue Général Bérenger, il dit oui — l'effiloché peut attendre, l'aventure, non.
+            </p>
+          </div>
+          <div class="perso-bloc">
+            <div class="perso-nom">Le compromis parfait</div>
+            <p class="perso-texte">
+              Cave à vins pour Charlotte, bonne viande pour Jean-Mi. Ils ont tout refait de leurs mains — les tables, les planches en bois, et quelques autres surprises. Trinco, c'est ce qu'on obtient quand deux rêves s'accordent devant une voûte en pierre.
+            </p>
+          </div>
+        </div>
+
+        <p style="font-size:0.83rem; color:var(--or); letter-spacing:0.05em; font-style:italic; margin-top:1.5rem;">
           "On a tout fait de nos mains. Même les trucs qu'on aurait pas dû."
         </p>
       </div>
@@ -80,22 +91,28 @@
 <!-- CARTE -->
 <section id="carte">
   <div class="container">
-    <p class="section-label">Ce qu'on mange & ce qu'on boit</p>
-    <h2 class="section-title">La carte</h2>
-    <p class="section-intro" style="margin-bottom: 2.5rem;">
-      Des planches qui partagent, des assiettes qui surprennent, des vins qui racontent. Tout change selon l'arrivage — et c'est exprès.
-    </p>
+    <div class="carte-header-row">
+      <div>
+        <p class="section-label">Ce qu'on mange & ce qu'on boit</p>
+        <h2 class="section-title">La carte</h2>
+        <p class="section-intro">Des planches qui partagent, des assiettes qui surprennent, des vins qui racontent. Tout change selon l'arrivage — et c'est exprès.</p>
+      </div>
+      <a href="trinco_carte.pdf" download class="btn-pdf">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 004.561 21h14.878a2 2 0 001.94-1.515L22 17"/>
+        </svg>
+        Télécharger la carte PDF
+      </a>
+    </div>
 
     <div class="carte-tabs">
-      <button class="tab-btn active" data-section="planches">Planches</button>
-      <button class="tab-btn" data-section="assiettes">Assiettes</button>
-      <button class="tab-btn" data-section="sucre">Sucré</button>
-      <button class="tab-btn" data-section="vins">Les vins</button>
+      <button class="tab-btn active" data-section="planches">🧀 Planches</button>
+      <button class="tab-btn" data-section="assiettes">🍽 Assiettes</button>
+      <button class="tab-btn" data-section="sucre">🍮 Sucré</button>
+      <button class="tab-btn" data-section="vins">🍷 Les vins</button>
     </div>
 
-    <div id="carte-content">
-      <!-- Chargé par JS depuis _data/carte.json -->
-    </div>
+    <div id="carte-content"></div>
   </div>
 </section>
 
@@ -103,22 +120,70 @@
 <section id="galerie">
   <div class="container">
     <p class="section-label">L'endroit</p>
-    <h2 class="section-title" style="color: var(--creme);">La cave,<br>la terrasse, le reste.</h2>
+    <h2 class="section-title" style="color:var(--creme);">La cave, la terrasse,<br>le reste.</h2>
 
-    <div class="galerie-grid" style="margin-top: 2.5rem;">
-      <img src="images/cave_vins.webp"         alt="Cave à vins du Trinco"           class="g-tall"   loading="lazy" />
-      <img src="images/facade_exterieure.webp"  alt="Façade extérieure du Trinco"     class="g-wide"   loading="lazy" />
-      <img src="images/terrasse_bar.webp"       alt="Terrasse du Trinco"              class="g-normal" loading="lazy" />
-      <img src="images/salle_voutee.webp"       alt="Salle voûtée en pierre"          class="g-normal" loading="lazy" />
-      <img src="images/assiette_fromage.webp"   alt="Plateau de fromages L'Affinée"   class="g-wide"   loading="lazy" />
-      <img src="images/vin_saint_romain.webp"   alt="Vin Saint-Romain au Trinco"      class="g-normal" loading="lazy" />
-      <img src="images/table_saponaire.webp"    alt="Table dressée en terrasse"       class="g-normal" loading="lazy" />
+    <div class="slider-wrapper">
+      <div class="slider-track">
+        <div class="slide">
+          <img src="images/salle_voutee.webp" alt="La salle voûtée en pierre du Trinco" />
+          <div class="slide-caption">La salle — voûte en pierre, ampoules Edison, tables faites maison</div>
+        </div>
+        <div class="slide">
+          <img src="images/cave_vins.webp" alt="La cave à vins du Trinco" />
+          <div class="slide-caption">La cave — des centaines de références choisies par Charlotte</div>
+        </div>
+        <div class="slide">
+          <img src="images/facade_exterieure.webp" alt="La façade du Trinco à Cagnes-sur-Mer" />
+          <div class="slide-caption">La façade — 6 rue Général Bérenger, Cagnes-sur-Mer</div>
+        </div>
+        <div class="slide">
+          <img src="images/terrasse_bar.webp" alt="La terrasse du Trinco" />
+          <div class="slide-caption">La terrasse — entre jardinières fleuries et hauteurs de bar</div>
+        </div>
+        <div class="slide">
+          <img src="images/assiette_fromage.webp" alt="L'Affinée — plateau de fromages du Trinco" />
+          <div class="slide-caption">L'Affinée — notre plateau de fromages sur ardoise</div>
+        </div>
+        <div class="slide">
+          <img src="images/vin_saint_romain.webp" alt="Saint-Romain Domaine Germain au Trinco" />
+          <div class="slide-caption">Saint-Romain — Domaine Germain, une de nos pépites</div>
+        </div>
+        <div class="slide">
+          <img src="images/table_saponaire.webp" alt="Table dressée en terrasse au Trinco" />
+          <div class="slide-caption">La table est dressée — plus qu'à choisir votre bouteille</div>
+        </div>
+      </div>
+
+      <button class="slider-btn slider-prev" aria-label="Précédent">‹</button>
+      <button class="slider-btn slider-next" aria-label="Suivant">›</button>
     </div>
 
-    <div style="text-align:center; margin-top:2rem;">
-      <a href="https://www.instagram.com/trincocave" target="_blank" rel="noopener" class="btn-outline" style="display:inline-flex; align-items:center; gap:0.5rem; border-color: var(--pierre);">
+    <!-- Thumbnails -->
+    <div class="slider-thumbs">
+      <img src="images/salle_voutee.webp"       class="slider-thumb active" alt="Salle" />
+      <img src="images/cave_vins.webp"           class="slider-thumb"        alt="Cave" />
+      <img src="images/facade_exterieure.webp"   class="slider-thumb"        alt="Façade" />
+      <img src="images/terrasse_bar.webp"        class="slider-thumb"        alt="Terrasse" />
+      <img src="images/assiette_fromage.webp"    class="slider-thumb"        alt="Fromages" />
+      <img src="images/vin_saint_romain.webp"    class="slider-thumb"        alt="Vin" />
+      <img src="images/table_saponaire.webp"     class="slider-thumb"        alt="Table" />
+    </div>
+
+    <!-- Dots -->
+    <div class="slider-dots">
+      <div class="dot active"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+
+    <div class="galerie-footer">
+      <a href="https://www.instagram.com/trincocave" target="_blank" rel="noopener" class="btn-outline" style="display:inline-flex;align-items:center;gap:0.5rem;border-color:rgba(212,201,176,0.4);">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
-        @trincocave
+        Suivre @trincocave
       </a>
     </div>
   </div>
@@ -128,15 +193,11 @@
 <section id="avis">
   <div class="container">
     <p class="section-label">Ce qu'ils en pensent</p>
-    <h2 class="section-title">5/5 — ils reviennent.</h2>
-
-    <div class="avis-grid" id="avis-grid">
-      <!-- Chargé par JS -->
-    </div>
-
+    <h2 class="section-title">5 / 5 — ils reviennent.</h2>
+    <div class="avis-grid" id="avis-grid"></div>
     <div class="avis-cta">
       <a href="https://www.google.com/maps/search/?api=1&query=Trinco+Cagnes-sur-Mer" target="_blank" rel="noopener" class="btn-google">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/></svg>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
         Voir tous nos avis Google
       </a>
     </div>
@@ -148,49 +209,30 @@
   <div class="container">
     <p class="section-label">On vous attend</p>
     <h2 class="section-title">Réserver une table</h2>
-
     <div class="contact-grid">
-      <!-- Infos -->
-      <div class="contact-infos">
+      <div class="contact-infos fade-up">
         <div>
           <p class="contact-bloc-label">Adresse</p>
-          <p class="contact-bloc-val">
-            6 rue Général Bérenger<br>
-            06800 Cagnes-sur-Mer
-          </p>
+          <p class="contact-bloc-val">6 rue Général Bérenger<br>06800 Cagnes-sur-Mer</p>
         </div>
         <div>
           <p class="contact-bloc-label">Téléphone</p>
-          <p class="contact-bloc-val">
-            <a href="tel:+33781650228">07 81 65 02 28</a>
-          </p>
+          <p class="contact-bloc-val"><a href="tel:+33781650228">07 81 65 02 28</a></p>
         </div>
         <div>
           <p class="contact-bloc-label">Horaires</p>
-          <div id="horaires-content">
-            <!-- Chargé par JS -->
-          </div>
+          <div id="horaires-content"></div>
         </div>
         <div>
-          <p class="contact-bloc-label">Nous suivre</p>
-          <p class="contact-bloc-val">
-            <a href="https://www.instagram.com/trincocave" target="_blank" rel="noopener">@trincocave</a>
-          </p>
+          <p class="contact-bloc-label">Instagram</p>
+          <p class="contact-bloc-val"><a href="https://www.instagram.com/trincocave" target="_blank" rel="noopener">@trincocave</a></p>
         </div>
-
         <div class="map-embed">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.9!2d7.1480!3d43.6647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdd321d4ad0dfb%3A0x1d8dfc1db5aa46de!2sTrinco!5e0!3m2!1sfr!2sfr!4v1700000000000"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            title="Trinco sur Google Maps">
-          </iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.9!2d7.1480!3d43.6647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdd321d4ad0dfb%3A0x1d8dfc1db5aa46de!2sTrinco!5e0!3m2!1sfr!2sfr!4v1700000000000" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Trinco sur Google Maps"></iframe>
         </div>
       </div>
 
-      <!-- Formulaire -->
-      <form id="resa-form" class="contact-form">
+      <form id="resa-form" class="contact-form fade-up">
         <div class="form-row">
           <div class="form-group">
             <label for="nom">Nom & Prénom</label>
@@ -209,30 +251,17 @@
           <div class="form-group">
             <label for="heure">Heure</label>
             <select id="heure" name="heure">
-              <option value="12h00">12h00</option>
-              <option value="12h30">12h30</option>
-              <option value="13h00">13h00</option>
-              <option value="13h30">13h30</option>
-              <option value="19h00" selected>19h00</option>
-              <option value="19h30">19h30</option>
-              <option value="20h00">20h00</option>
-              <option value="20h30">20h30</option>
-              <option value="21h00">21h00</option>
-              <option value="21h30">21h30</option>
+              <option>12h00</option><option>12h30</option><option>13h00</option><option>13h30</option>
+              <option selected>19h00</option><option>19h30</option><option>20h00</option>
+              <option>20h30</option><option>21h00</option><option>21h30</option>
             </select>
           </div>
         </div>
         <div class="form-group">
           <label for="couverts">Nombre de couverts</label>
           <select id="couverts" name="couverts">
-            <option>1</option>
-            <option selected>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-            <option>6</option>
-            <option>7</option>
-            <option>8+</option>
+            <option>1</option><option selected>2</option><option>3</option><option>4</option>
+            <option>5</option><option>6</option><option>7</option><option>8+</option>
           </select>
         </div>
         <div class="form-group">
@@ -240,9 +269,7 @@
           <textarea id="message" name="message" placeholder="Allergie, occasion spéciale, privatisation…"></textarea>
         </div>
         <button type="submit" class="form-submit">Envoyer la demande →</button>
-        <p style="font-size:0.75rem; color: var(--gris-text); margin-top:0.25rem;">
-          Vous pouvez aussi nous appeler directement ou passer sur WhatsApp →
-        </p>
+        <p style="font-size:0.75rem;color:var(--gris-text);margin-top:0.25rem;">Ou directement par WhatsApp via le bouton en bas à droite →</p>
       </form>
     </div>
   </div>
@@ -254,6 +281,7 @@
   <div class="footer-sub">Cave à Manger · Cagnes-sur-Mer</div>
   <nav class="footer-links">
     <a href="#carte">La carte</a>
+    <a href="trinco_carte.pdf" download>Menu PDF</a>
     <a href="https://www.instagram.com/trincocave" target="_blank" rel="noopener">Instagram</a>
     <a href="tel:+33781650228">07 81 65 02 28</a>
     <a href="#contact">Réserver</a>
@@ -261,15 +289,9 @@
   <p class="footer-copy">© 2025 Trinco · 6 rue Général Bérenger, 06800 Cagnes-sur-Mer</p>
 </footer>
 
-<!-- BOUTON WHATSAPP FLOTTANT -->
-<a class="wa-float"
-   href="https://wa.me/33781650228?text=Bonjour%20Jean-Mi%20%26%20Charlotte%2C%20je%20souhaite%20r%C3%A9server%20une%20table%20au%20Trinco%20%F0%9F%8D%B7"
-   target="_blank"
-   rel="noopener"
-   aria-label="Réserver via WhatsApp">
-  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-  </svg>
+<!-- WHATSAPP -->
+<a class="wa-float" href="https://wa.me/33781650228?text=Bonjour%20Jean-Mi%20%26%20Charlotte%2C%20je%20souhaite%20réserver%20une%20table%20au%20Trinco%20🍷" target="_blank" rel="noopener" aria-label="Réserver via WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
 </a>
 
 <script src="js/main.js"></script>
